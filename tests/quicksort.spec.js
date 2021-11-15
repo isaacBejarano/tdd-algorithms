@@ -30,5 +30,7 @@ describe("quickSortDESC()", () => {
 		expect(quickSortDESC(vector)).toEqual(asc);
 	});
 
-	it("quickSortDESC only orders descendently", () => {});
+	it("quickSortDESC sorts ONLY descendently", () => {
+		expect(quickSortDESC(vector)).toEqual(desc);
+	});
 });
