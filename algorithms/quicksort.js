@@ -2,10 +2,10 @@ function quickSort(vector) {
 	let left = [];
 	let right = [];
 	let pivot = vector[0];
-	let output = vector;
+	let output = vector; // else... def CASE BASE
 
-	// IF "base case" ELSE "recursion"
-	if (vector.length < 2) output = vector;
+	// if... RECURSION
+	if (vector.length >= 2) {}
 
 
 	return vector;
