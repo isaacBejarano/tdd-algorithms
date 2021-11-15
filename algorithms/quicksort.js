@@ -14,7 +14,8 @@ function quickSortDESC(vector) {
 		}
 
 		// and repeat
-		output = [...quickSortDESC(left), pivot, ...quickSortDESC(right)]; // ASC
+		// output = [...quickSortDESC(left), pivot, ...quickSortDESC(right)]; // ASC
+		output = [...quickSortDESC(right), pivot, ...quickSortDESC(left)]; // DESC
 	}
 
 	return output;
