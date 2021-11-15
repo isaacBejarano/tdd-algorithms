@@ -8,7 +8,7 @@ function quickSort(vector) {
 	if (vector.length >= 2) {}
 
 
-	return vector;
+	return output;
 }
 
 module.exports = quickSort;
