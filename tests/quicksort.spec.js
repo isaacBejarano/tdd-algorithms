@@ -19,8 +19,8 @@ describe("new hundredDoors()", () => {
 		expect(vector).toEqual(expect.arrayContaining([expect.any(Number)]));
 	});
 
-	it("quicksort sorted the vector", () => {
-		expect(quickSort(vector)).toEqual(desc);
+	it("quicksort sorted the vector: BASE CASE", () => {
+		expect(quickSort([3])).toEqual([3]);
 	});
 
 	it("quicksort can order descendently", () => {});
