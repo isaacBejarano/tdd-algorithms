@@ -1,5 +1,9 @@
-function arrays2DTo1D(arr2D) {
-	let array1D = ["A1", 42, 81, { id: "B2" }];
+function arrays2DTo1D(array2D) {
+	let array1D = [];
+
+	for (let i = 0; i < array2D.length; i++) {
+		array1D.push(...array2D[i]);
+	}
 
 	return array1D;
 }

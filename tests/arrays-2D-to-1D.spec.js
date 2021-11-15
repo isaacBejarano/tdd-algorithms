@@ -19,7 +19,7 @@ describe("arrays2DTo1D()", () => {
 			["A1", 42],
 			[81, { id: "B2" }],
 		];
-		
+
 		array1D = ["A1", 42, 81, { id: "B2" }];
 	});
 
@@ -28,6 +28,7 @@ describe("arrays2DTo1D()", () => {
 	});
 
 	it("arrays2DTo1D() returns a onedimensional array from bidimensional array", () => {
+		// console.log(arrays2DTo1D(array2D));
 		expect(arrays2DTo1D(array2D)).toEqual(array1D);
 	});
 });
