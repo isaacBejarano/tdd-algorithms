@@ -23,5 +23,9 @@ describe("new hundredDoors()", () => {
 		expect(quickSort([3])).toEqual([3]);
 	});
 
+	it("quicksort sorted the vector: COMPLEX CASES recursively", () => {
+		expect(quickSort(vector)).toEqual(desc);
+	});
+
 	it("quicksort can order descendently", () => {});
 });
