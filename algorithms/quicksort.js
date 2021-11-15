@@ -13,4 +13,4 @@ function quickSortDESC(vector) {
 	return output;
 }
 
-module.exports = quickSort;
+module.exports = quickSortDESC;

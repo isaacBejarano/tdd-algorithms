@@ -20,11 +20,11 @@ describe("quickSortDESC()", () => {
 	});
 
 	it("quickSortDESC sorted the vector: BASE CASE", () => {
-		expect(quickSort([3])).toEqual([3]);
+		expect(quickSortDESC([3])).toEqual([3]);
 	});
 
 	it("quickSortDESC sorted the vector: COMPLEX CASES recursively", () => {
-		expect(quickSort(vector)).toEqual(desc);
+		expect(quickSortDESC(vector)).toEqual(desc);
 	});
 
 	it("quickSortDESC only orders descendently", () => {});
