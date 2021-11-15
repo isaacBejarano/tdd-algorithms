@@ -20,7 +20,7 @@ describe("new hundredDoors()", () => {
 	});
 
 	it("quicksort sorted the vector", () => {
-		expect(quickSort).toEqual(desc);
+		expect(quickSort()).toEqual(desc);
 	});
 
 	it("quicksort can order descendently", () => {});
