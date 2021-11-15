@@ -17,7 +17,12 @@ describe("arrays2DTo1D()", () => {
 			[81, { id: "B2" }],
 		];
 	});
+
 	it("transforms a bidimensional array", () => {
 		expect(array2D).toEqual(expect.arrayContaining([expect.arrayContaining([expect.anything()])]));
+	});
+
+	it("arrays2DTo1D() returns a onedimensional array from bidimensional array", () => {
+		expect(arrays2DTo1D(array2D)).toEqual(array1D);
 	});
 });
