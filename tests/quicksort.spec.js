@@ -27,7 +27,7 @@ describe("quickSortDESC()", () => {
 	});
 
 	it("quickSortDESC sorted the vector: COMPLEX CASES recursively", () => {
-		expect(quickSortDESC(vector)).toEqual(asc);
+		expect(quickSortDESC(vector)).not.toEqual(asc);
 	});
 
 	it("quickSortDESC sorts ONLY descendently", () => {
