@@ -5,7 +5,7 @@ let vector = []; // numbers[] unsorted
 let asc = []; // numbers[] sorted
 let desc = []; // numbers[] sorted
 
-xdescribe("quickSortDESC()", () => {
+describe("quickSortDESC()", () => {
 	beforeEach(() => {
 		vector = [5, 2, 0, 1, 9, 8, 3, 7, 4, 6]; // unsorted
 		asc = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]; // sorted

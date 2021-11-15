@@ -3,7 +3,7 @@ const arrays2DTo1D = require("../algorithms/arrays-2D-to-1D");
 
 let array2D = []; // any[][]
 
-xdescribe("arrays2DTo1D()", () => {
+describe("arrays2DTo1D()", () => {
 	beforeEach(() => {
 		array2D = [
 			["A1", 42],

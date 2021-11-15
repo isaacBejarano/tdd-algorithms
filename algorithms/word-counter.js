@@ -1,5 +1,7 @@
 function wordCounter(text) {
-	return 8;
+	let counter = text.split(" "); // [Lorem, ipsum,...]
+
+	return counter.length;
 }
 
 module.exports = wordCounter;
